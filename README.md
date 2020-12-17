@@ -14,10 +14,21 @@ Workflow:
   1. Get a total stats table about the number and volume of metagenomes from different habitats using BioPython;
   2. Download metagenomes of different habitats using BioPython;
   3. Predict genes in rRNA assemblies using Barrnap (https://github.com/tseemann/barrnap);
-  4. Conduct taxonomic annotation of the obtained sequences using SINA (https://github.com/epruesse/SINA), get predicted and annotated .fasta;
-  5. Selection and filtering of 18S rRNA genes using command-line tools;
-  6. Perform phylogenetic analysis using FastTree (http://www.microbesonline.org/fasttree/);
-  7. Make beautiful and easy-to-read tree plots using ETE Toolkit for Python (http://etetoolkit.org/);
-  8. Perform BLAST (https://blast.ncbi.nlm.nih.gov/Blast.cgi) to verify our results.
+  4. Selection and filtering of 18S rRNA genes using command-line tools;
+  5. Conduct taxonomic annotation of the obtained sequences using SINA (https://github.com/epruesse/SINA) and SILVA SSU Ref 99 database(https://www.arb-silva.de/download/arb-files/), get predicted and annotated .fasta;
+  6. Filtering SINA results from undesired fungi using command-line tools;
+  7. Removing alignment gaps after SINA using BioPython;
+  8. Realignment of degapped sequences using MAFFT online server (https://mafft.cbrc.jp/alignment/server/);
+  9. Perform phylogenetic analysis using FastTree (http://www.microbesonline.org/fasttree/);
+  10. Make beautiful and easy-to-read tree plots using ETE Toolkit for Python (http://etetoolkit.org/);
+  11. Perform BLAST (https://blast.ncbi.nlm.nih.gov/Blast.cgi) to verify our results.
+  
+  To sum up, we developed new pipeline that allows to find new species. This pipeline is unique and first to be developed to seacrh new species.
+  
+  Pipeline was tested on previously found microsporidia *Enterospora canceri* before lauhching.
+  
   You can find more info about tools using given links.
-  You can find all intermediate results in Github repository.
+  You can find all intermediate results in Github repository, as also a thesis.
+  If you have any questions, please contact ignatsonets@gmail.com
+  
+  Thank you for your attention!
