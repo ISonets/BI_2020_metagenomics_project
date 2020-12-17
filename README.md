@@ -1,11 +1,15 @@
 Hidden biodiversity: search for uncultured protists in metagenomes
+
 Background: metagenomics allows to reveal the hidden diversity of uncultivated organisms, including unicellular creatures (protists). There are groups of protists that are quite difficult to isolate from the environment and even more difficult to cultivate. The discovery of hidden groups of protists and previously undescribed representatives of known groups will help us learn more about their biodiversity, evolution, etc.
+
 Project objective: search for a hidden diversity of mushroom-like protists and amoebas, new supergroups of protists in metagenomes.
+
 Project tasks:
   1. Get metagenomes from NCBI database
   2. Predict and select marker genes from raw contigs
   3. Make taxonomic annotation
   4. Perform phylogenetic analysis
+  
 Workflow:
   1. Get a total stats table about the number and volume of metagenomes from different habitats using BioPython;
   2. Download metagenomes of different habitats using BioPython;
