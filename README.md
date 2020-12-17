@@ -15,7 +15,7 @@ Workflow:
   2. Download metagenomes of different habitats using BioPython;
   3. Predict genes in rRNA assemblies using Barrnap (https://github.com/tseemann/barrnap);
   4. Conduct taxonomic annotation of the obtained sequences using SINA (https://github.com/epruesse/SINA), get predicted and annotated .fasta;
-  5. Selection and filtering of 18S and 28S rRNA genes using command-line tools;
+  5. Selection and filtering of 18S rRNA genes using command-line tools;
   6. Perform phylogenetic analysis using FastTree (http://www.microbesonline.org/fasttree/);
   7. Make beautiful and easy-to-read tree plots using ETE Toolkit for Python (http://etetoolkit.org/);
   8. Perform BLAST (https://blast.ncbi.nlm.nih.gov/Blast.cgi) to verify our results.
