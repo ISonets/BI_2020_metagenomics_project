@@ -1,3 +1,9 @@
+1.Script for search metagenomes.py
+  python3 Script for search metagenomes.py -o List_with_metagenomes
+
+2. Download_assembly.py
+  python3 Download_assembly.py -t search_metagenome -i input_file.csv -d path_to_dir
+
 3. Barrnap
   Barrnap was installed accroding to the manual in Anaconda.
   for i in raw_data/*.fna;  do barrnap --threads 4 --kingdom arc --kingdom euk --outseq ${i%.*}.fasta < "$i"; done
@@ -62,3 +68,6 @@
   fasttree -nt 18S_allweneed_v2_nogaps_aligned.fasta > 18S_allweneed_v2.tre
   fasttree -nt 18S_desired_fungi_nogaps_aligned.fasta > 18S_desired_fungi.tre
   fasttree -nt 18S_unclassified_nogaps_aligned.fasta > 18S_unclassified.tre
+
+9. ete3
+  Trees have been built using package ete3 in Python.
