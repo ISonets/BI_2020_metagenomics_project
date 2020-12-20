@@ -4,13 +4,13 @@ Background: metagenomics allows to reveal the hidden diversity of uncultivated o
 
 Project objective: search for a hidden diversity of mushroom-like protists and amoebas, new supergroups of protists in metagenomes.
 
-# Project tasks:
+## Project tasks:
   1. Get metagenomes from NCBI database
   2. Predict and select marker genes from raw contigs
   3. Make taxonomic annotation
   4. Perform phylogenetic analysis
   
-# Workflow:
+## Workflow:
   1. Get a total stats table about the number and volume of metagenomes from different habitats using BioPython;
   2. Download metagenomes of different habitats using BioPython;
   3. Predict genes in rRNA assemblies using Barrnap (https://github.com/tseemann/barrnap);
@@ -34,7 +34,7 @@ Project objective: search for a hidden diversity of mushroom-like protists and a
   Thank you for your attention!
   
   
-# 
+# Pipeline with commands
 ## 1.Script for search metagenomes.py
   ```
   python3 Script for search metagenomes.py -o List_with_metagenomes
