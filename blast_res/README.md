@@ -1,0 +1,1 @@
+# Results for unclassified sequences from BLAST. Parameters are standard, reference database is 18S rRNA SSU from Fungi type and refeerence material.
