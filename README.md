@@ -29,7 +29,7 @@ Project objective: search for a hidden diversity of mushroom-like protists and a
   
   You can find more info about tools using given links.
   You can find all intermediate results in Github repository, as also a thesis.
-  If you have any questions, please contact ignatsonets@gmail.com
+  If you have any questions, please contact ignatsonets@gmail.com and/or vanypyankov@gmail.com
   
   Thank you for your attention!
   
