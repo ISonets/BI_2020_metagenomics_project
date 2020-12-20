@@ -63,7 +63,9 @@
   You can see the instructions for use in the "python scripts" folder
   
 # 7. Realignment using MAFFT online version
+
   Parameters:
+  ```
   -direction of nucleotide sequences: same as input
   -output order: aligned
   -strategy: auto (depends on data size)
@@ -73,16 +75,23 @@
   -offset value: 0
   -guide tree: default
   -mafft-homologs: use UniRef50
-  
+   ```
+   
    MAFFT was performed for 3 sequences:
+   
+   ```
   -18S_desired_fungi_nogaps.fasta
   -18S_allweneed_v2_nogaps.fasta
   -18S_unclassified_nogaps.fasta
+   ```
   
    Results were renamed:
+   
+   ```
   -18S_allweneed_v2_nogaps_aligned.fasta
   -18S_desired_fungi_nogaps_aligned.fasta
   -18S_unclassified_nogaps_aligned.fasta
+   ```
   
 # 8. FastTree
   FastTree was installed according to the manual in Anaconda.
