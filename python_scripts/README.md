@@ -1,4 +1,4 @@
-# Instructions for Script_for_search_metagenomes.py
+# Instruction for Script_for_search_metagenomes.py
 
 This script can be used to search and download the list of metagenomes available in the NCBI database. You can get acquainted with the parameters passed to the script via the-h flag:
 
@@ -19,7 +19,7 @@ optional arguments:
 
 ``` $ python3 Script_for_search_metagenomes.py -o file_name```
 
-# Instructions for Download_assembly.py
+# Instruction for Download_assembly.py
 
 This script can be used to download the selected metagenome from the NCBI database. You must submit a csv table to the input after the script runs "Script_for_search_metagenomes.py". You can get acquainted with the parameters passed to the script via the-h flag
 
@@ -45,6 +45,30 @@ optional arguments:
 $ python3 Download_assembly.py -t metagenome_name -i list_metagenomes.csv -d /path/to/dir
 ```
 
-# Instructions for Trees_builder.py
+# Instruction for Trees_builder.py
 
 Use Python for this script
+
+
+# Instruction Remove_gap.py
+
+This script is necessary to remove gaps in "fasta" file. You can get acquainted with the parameters passed to the script via the-h flag
+
+## Using -h flag
+
+```
+$ python3 Remove_gap.py -h
+usage: Remove_gap.py [-h] --input INPUT --output OUTPUT
+
+Remove gap in "fasta" file.
+
+optional arguments:
+  -h, --help            show this help message and exit
+  --input INPUT, -i INPUT
+                        Input file
+  --output OUTPUT, -o OUTPUT
+                        Output file
+```
+## Example
+```
+python3 Remove_gap.py -i input_file.fasta -o output_file.fasta
