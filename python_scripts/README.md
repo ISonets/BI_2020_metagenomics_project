@@ -8,7 +8,7 @@ This script can be used to search and download the list of metagenomes available
 $ python3 Script_for_search_metagenomes.py -h
 usage: Script_for_search_metagenomes.py [-h] --output OUTPUT
 
-Search all metagenome in the NCBI database and return the result table.
+Search all metagenomes in the NCBI database and return the result table.
 
 optional arguments:
   -h, --help            show this help message and exit
